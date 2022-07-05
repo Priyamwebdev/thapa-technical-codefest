@@ -15,8 +15,8 @@ const Navbar = () => {
       <div className="nav">
         <ul className='flex  space-x-7 my-2 mr-10 text-xl text-white'>
         <li className='border-b-2 border-solid border-slate-500 hover:border-white cursor-pointer' onClick={handleAboutClick}>About</li>
-        <li className='border-b-2 border-solid border-slate-500 hover:border-white cursor-pointer' onClick={handleFAQClick}>FAQ</li>
-        <li className='border-b-2 border-solid border-slate-500 hover:border-white cursor-pointer' onClick={handleCourseClick}>Courses</li>
+        <li className='border-b-2 border-solid border-slate-500 hover:border-white cursor-pointer'><a href="#faq">FAQ</a></li>
+        <li className='border-b-2 border-solid border-slate-500 hover:border-white cursor-pointer'><a href="#about">Courses</a></li>
         </ul>
       </div>
         <ul className='items-center my-2'> 

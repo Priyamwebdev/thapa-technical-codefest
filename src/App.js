@@ -10,8 +10,8 @@ function App() {
   return (
    <div> 
        <Navbar/>
-        <Form/>
-  <h1  className="text-4xl font-bold text-center">
+        <Form/><br/>
+  <h1  className="text-4xl font-bold text-center mt-2">
     Our courses
        </h1>
        <section className="text-gray-600 body-font">
